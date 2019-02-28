@@ -1,0 +1,212 @@
+section {
+    width: 100%;
+    height: 200px;
+    /*background: aqua; DELETE JUST TO VIEW DIV LOCATIONS*/
+    margin: auto;
+}
+div#one {
+    width: 50%;
+    height: 200px;
+    /*background: red; DELETE JUST TO VIEW DIV LOCATIONS*/
+    float: left;
+    padding-right: 30px;
+}
+div#two {
+	padding-right: 30px;
+    margin-left: 15%;
+    height: 200px;
+    /*background: black; DELETE JUST TO VIEW DIV LOCATIONS*/
+}
+
+/* Equipment Page CSS */
+
+#addList, #removeList {	
+    /*background-image: url('/css/searchicon.png'); /* Add a search icon to input */
+   	background-position: 10px 12px; /* Position the search icon */
+    background-repeat: no-repeat; /* Do not repeat the icon image */
+    /*width: 100%; /* Full-width */
+    font-size: 16px; /* Increase font-size */
+    padding: 12px 20px 12px 10px; /* Add some padding */
+    /*border: 1px solid #ddd; /* Add a grey border */
+    margin-bottom: 120px; /* Add some space below the input */
+    margin-top: 100px; /* Add some space below the input */
+    
+    list-style-type: none;
+    margin: 0;
+    
+    display: inline-block;
+    *display: inline;
+    zoom: 1
+}
+
+#myUL, #myULTwo {
+    /* Remove default list styling */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+    /*display: inline-block;
+    *display: inline;
+    zoom: 1*/
+}
+
+#myUL li a, #myULTwo li a {
+    border: 1px solid #ddd; /* Add a border to all links */
+    margin-top: -1px; /* Prevent double borders */
+    background-color: #f6f6f6; /* Grey background color */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; /* Remove default text underline */
+    font-size: 18px; /* Increase the font-size */
+    color: black; /* Add a black text color */
+    display: block; /* Make it into a block element to fill the whole list */
+}
+
+#myUL a:hover:not(.header), #myULTwo li a:hover:not(.header) {
+    background-color: #eee; /* Add a hover effect to all links, except for headers */
+}
+
+/* The styles for the elements */
+body {
+
+}
+
+#menuBar{}
+
+#menuBar .button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+h1 {     
+    font-size: 140%;
+    margin-bottom: .5em;    
+}
+
+.workoutTable {
+	position: absolute;
+    top: 25%;
+    left: 25%;
+    right: 25%;
+    text-align: center;
+}
+
+.table1 {
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    right: 25%;
+    text-align: center;
+}
+
+.apex {
+	padding: 1px;
+	width: 900px;
+	height: 350px;
+	font-size: 28px;
+}
+
+.loginInfo {
+	margin-left: 50px;
+}
+
+ .account {
+    display: inline-block;
+    width:700px;
+    text-align: left;
+}
+
+.profileTable {
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    right: 25%;
+    text-align: center;
+}
+
+.profilePage {
+    display: inline-block;
+    width:900px;
+    text-align: left;
+}
+
+.profilePage label {
+	display: inline-block;
+    width: 400px;
+    float: middle;
+}
+
+.profileTD {
+	padding: 1px;
+	width: 900px;
+	height: 350px;
+	font-size: 28px;
+}
+
+
+ .workouts {
+    display: inline-block;
+    width:745px;
+    text-align: left;
+}
+
+ .menu {
+    display: inline-block;
+    width:100px;
+    text-align: center;
+}
+
+label{
+    display: inline-block;
+    width: 180px;
+    float: middle;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+
+.eqTable td {
+	padding: 2px;
+}
+
+#menuBar li {
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+#menuBar li:nth-last-child(2), #menuBar li:last-child {
+    border-right: none;
+    border-left: 1px solid #bbb;
+    float: right;
+}
+
+
+#menuBar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#menuBar li a:hover:not(.active) {
+    background-color: #111;
+}
+
+#menuBar .active {
+    background-color: #4CAF50;
+}
